@@ -1,0 +1,18 @@
+{
+  "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+  "id": "did:web:untp.traceability.site:bcgov:chief-permiting-officer",
+  "verificationMethod": [
+    {
+      "id": "did:web:untp.traceability.site:bcgov:chief-permiting-officer#verkey",
+      "controller": "did:web:untp.traceability.site:bcgov:chief-permiting-officer",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": ""
+    }
+  ],
+  "authentication": [
+    "did:web:untp.traceability.site:bcgov:chief-permiting-officer#verkey"
+  ],
+  "assertionMethod": [
+    "did:web:untp.traceability.site:bcgov:chief-permiting-officer#verkey"
+  ]
+}

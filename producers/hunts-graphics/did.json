@@ -1,0 +1,18 @@
+{
+  "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+  "id": "did:web:untp.traceability.site:producer:hunts-graphics",
+  "verificationMethod": [
+    {
+      "id": "did:web:untp.traceability.site:producer:hunts-graphics#verkey",
+      "controller": "did:web:untp.traceability.site:producer:hunts-graphics",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": ""
+    }
+  ],
+  "authentication": [
+    "did:web:untp.traceability.site:producer:hunts-graphics#verkey"
+  ],
+  "assertionMethod": [
+    "did:web:untp.traceability.site:producer:hunts-graphics#verkey"
+  ]
+}
