@@ -14,5 +14,12 @@
   ],
   "assertionMethod": [
     "did:web:pilot.traceability.site:untp:issuers:DIRECTOR-OF-PETROLEUM-LANDS#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:web:pilot.traceability.site:untp:issuers:DIRECTOR-OF-PETROLEUM-LANDS#orgbook",
+      "type": "LinkedDomain",
+      "serviceEndpoint": "https://orgbook.gov.bc.ca"
+    }
   ]
 }

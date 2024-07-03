@@ -14,5 +14,12 @@
   ],
   "assertionMethod": [
     "did:web:pilot.traceability.site:untp:issuers:CHIEF-PERMITTING-OFFICER#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:web:pilot.traceability.site:untp:issuers:CHIEF-PERMITTING-OFFICER#orgbook",
+      "type": "LinkedDomain",
+      "serviceEndpoint": "https://orgbook.gov.bc.ca"
+    }
   ]
 }

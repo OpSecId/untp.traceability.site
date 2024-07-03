@@ -14,5 +14,12 @@
   ],
   "assertionMethod": [
     "did:web:pilot.traceability.site:untp:producers:PACIFIC-CANBRIAM-ENERGY-LIMITED#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:web:pilot.traceability.site:untp:producers:PACIFIC-CANBRIAM-ENERGY-LIMITED#orgbook",
+      "type": "LinkedDomain",
+      "serviceEndpoint": "https://orgbook.gov.bc.ca/entity/A0131571"
+    }
   ]
 }
