@@ -1,0 +1,18 @@
+{
+  "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+  "id": "did:web:pilot.traceability.site:untp:issuers:CHIEF-PERMITTING-OFFICER",
+  "verificationMethod": [
+    {
+      "id": "did:web:pilot.traceability.site:untp:issuers:CHIEF-PERMITTING-OFFICER#verkey",
+      "controller": "did:web:pilot.traceability.site:untp:issuers:CHIEF-PERMITTING-OFFICER",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": ""
+    }
+  ],
+  "authentication": [
+    "did:web:pilot.traceability.site:untp:issuers:CHIEF-PERMITTING-OFFICER#verkey"
+  ],
+  "assertionMethod": [
+    "did:web:pilot.traceability.site:untp:issuers:CHIEF-PERMITTING-OFFICER#verkey"
+  ]
+}
