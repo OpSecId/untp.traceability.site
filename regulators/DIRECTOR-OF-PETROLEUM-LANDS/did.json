@@ -1,0 +1,25 @@
+{
+  "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+  "id": "did:web:untp.traceability.site:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+  "verificationMethod": [
+    {
+      "id": "did:web:untp.traceability.site:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey",
+      "controller": "did:web:untp.traceability.site:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "7Q5q2WXzykti6B4Lx94k6yKW5i62uiqKf8jhLrU6rmEM"
+    }
+  ],
+  "authentication": [
+    "did:web:untp.traceability.site:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey"
+  ],
+  "assertionMethod": [
+    "did:web:untp.traceability.site:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:web:untp.traceability.site:regulators:DIRECTOR-OF-PETROLEUM-LAND#orgbook",
+      "type": "LinkedDomain",
+      "serviceEndpoint": "https://orgbook.gov.bc.ca"
+    }
+  ]
+}
