@@ -11,4 +11,4 @@ Information about the governance behind this actor can be found here.
 The contexts used by this issuer:
 - https://ctx.traceability.site/bcgov/tenure-title/v0.jsonld
 
-DID: `did:web:untp.traceability.site:regulators:DIRECTOR-OF-PETROLEUM-LAND`
+DID: `did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND`

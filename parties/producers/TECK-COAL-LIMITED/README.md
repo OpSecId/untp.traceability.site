@@ -4,4 +4,4 @@ Teck Coal Limited is a party acting as a Canadian copper producer, holding a [re
 
 The role of this actor is to issue Canadian Copper Product Passport (CanCODigitalProductPassport) credentials conforming with the UNTP Digital Product Passport (DPP).
 
-DID: `did:web:untp.traceability.site:producers:TECK-COAL-LIMITED`
+DID: `did:web:untp.traceability.site:parties:producers:TECK-COAL-LIMITED`

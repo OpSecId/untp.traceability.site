@@ -6,7 +6,7 @@
       "id": "did:web:untp.traceability.site:parties:regulators:CHIEF-PERMITTING-OFFICER#verkey",
       "controller": "did:web:untp.traceability.site:parties:regulators:CHIEF-PERMITTING-OFFICER",
       "type": "Ed25519VerificationKey2018",
-      "publicKeyBase58": "GTs7UwjENwNh3nuC8GJGKULW4qPmZFiFdmaQstfCqGMe"
+      "publicKeyBase58": "3SF5dUMQCoWHEN6G2jUpQwqLJdEmYRzupL2toRhrrpJ7"
     }
   ],
   "authentication": [

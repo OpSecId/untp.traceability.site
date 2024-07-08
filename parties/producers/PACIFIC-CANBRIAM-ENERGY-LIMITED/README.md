@@ -4,5 +4,5 @@ Pacific Canbriam Energy Limited is a party acting as a Canadian natural gas prod
 
 The role of this actor is to issue Canadian Natural Gas Product Passport (CanNGDigitalProductPassport) credentials conforming with the UNTP Digital Product Passport (DPP).
 
-DID: `did:web:untp.traceability.site:producers:PACIFIC-CANBRIAM-ENERGY-LIMITED`
+DID: `did:web:untp.traceability.site:parties:producers:PACIFIC-CANBRIAM-ENERGY-LIMITED`
 VERKEY: `J4Cxn7QPigUKqRzTSU6R92oskzkjPRGxz9HSD2GwYYcn`

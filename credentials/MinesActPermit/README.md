@@ -4,6 +4,7 @@
 - [Chief Permitting Officer](../../parties/regulators/CHIEF-PERMITTING-OFFICER/README.md)
 
 ## Ressources
+- Example
 - Governance
 - Regulation
 - Context
