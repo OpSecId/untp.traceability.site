@@ -1,0 +1,25 @@
+{
+  "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+  "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+  "verificationMethod": [
+    {
+      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey",
+      "controller": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "7Q5q2WXzykti6B4Lx94k6yKW5i62uiqKf8jhLrU6rmEM"
+    }
+  ],
+  "authentication": [
+    "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey"
+  ],
+  "assertionMethod": [
+    "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#linked-domain",
+      "type": "LinkedDomain",
+      "serviceEndpoint": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/energy-mines-and-petroleum-resources"
+    }
+  ]
+}

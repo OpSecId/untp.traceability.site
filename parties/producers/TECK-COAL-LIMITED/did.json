@@ -1,0 +1,25 @@
+{
+  "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+  "id": "did:web:untp.traceability.site:parties:producers:TECK-COAL-LIMITED",
+  "verificationMethod": [
+    {
+      "id": "did:web:untp.traceability.site:parties:producers:TECK-COAL-LIMITED#verkey",
+      "controller": "did:web:untp.traceability.site:parties:producers:TECK-COAL-LIMITED",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "Fk1wnniW9bP881UZrcHJjXWTZkK1TuKtoYWUeeiJuiSa"
+    }
+  ],
+  "authentication": [
+    "did:web:untp.traceability.site:parties:producers:TECK-COAL-LIMITED#verkey"
+  ],
+  "assertionMethod": [
+    "did:web:untp.traceability.site:parties:producers:TECK-COAL-LIMITED#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:web:untp.traceability.site:parties:producers:TECK-COAL-LIMITED#orgbook",
+      "type": "LinkedDomain",
+      "serviceEndpoint": "https://orgbook.gov.bc.ca/entity/A0103047"
+    }
+  ]
+}
