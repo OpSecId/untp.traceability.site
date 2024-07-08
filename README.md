@@ -2,25 +2,24 @@
 
 # UNTP Pilots Test Data
 
-This project if a fork of the did.actor projet which was used to seccessfully demonstrate supply-chain use cases in the past.
-This version is geared towards the UNTP model and its current pilots.
+This project aims to support the UNTP pilots by providing test data for testing and demonstration purposes.
 
 ## Parties
 
-The format definition of a party according to the UNTP can be found here. This consists of actors in the supply-chain playing a specific role which can be subcategorized as an issuer or a consumer. A consumer will most likely conduct verification of credentials. 
+A party is an actor in the supply-chain playing a specific role which can be subcategorized as an issuer or a consumer (verifier).
 
-These parties are responsible for creating extensions to the UNTP core specificaiton in order to meet their respective buisness goals. The type of party will directly affect where they get their requirements from, wether its by a buisness process of regulation compliance. Example of party type includes regulators, governement organizations, private companies, producers, assessment firms, etc... As the UNTP matures this list might get clearly defined or left abigous to enable these parties to adopt this specification as they see fit.
+These parties are responsible for creating extensions to the UNTP core specificaiton in order to meet their respective buisness goals.
 
 ### Regulators
 
-Regulators are mostly responsible for issuing DigitalConformityCredentials based on existing processes.
+Regulators are mostly responsible for issuing DigitalConformityCredentials.
 
 - [BC Gov Director of Petroleum Land](parties/regulators/DIRECTOR-OF-PETROLEUM-LANDS/README.md)
 - [BC Gov Chief Permitting Officer](parties/regulators/CHIEF-PERMITTING-OFFICER/README.md)
 
 ### Producers
 
-Producers are mostly responsible for issuing DigitalProductPassport conforming to various sutainability claims, which are available as DigitalConformityCredential.
+Producers are mostly responsible for issuing DigitalProductPassport.
 
 - [Pacific Canbriam Energy Limited](parties/producers/PACIFIC-CANBRIAM-ENERGY-LIMITED/README.md)
 - [Teck Coal Limited](parties/producers/TECK-COAL-LIMITED/README.md)
@@ -34,7 +33,7 @@ Credentials will be issued by an issuer and verified by a consumer. In the conte
 
 ## Registries
 
-Registries represent a source of data that can be used to store trusted information. Registries could include trust registries for issuers, context files, status credentials or any other type of publicly available credentials.
+Registries are where trusted information can be stored and published.
 
 - [Orgbook](registries/orgbook/README.md)
 - [Status](registries/status/README.md)
