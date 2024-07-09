@@ -451,10 +451,6 @@
         "@id": "untp-dcc:DigitalConformityCredential",
         "@type": "@id",
         "@context": {
-          "@context": {
-            "@id": "untp-dcc:@context",
-            "@type": "xsd:string"
-          },
           "issuer": {
             "@id": "untp-dcc:issuer",
             "@type": "untp-core:Party"
