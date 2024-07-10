@@ -2,16 +2,23 @@
   "@context": {
     "@protected": true,
 
-    "Law": "https://www.bclaws.gov.bc.ca/",
 
     "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance#",
 
     "url": "https://schema.org/url",
-    "Person": "https://schema.org/Person",
-    "jobTitle": "https://schema.org/jobTitle",
-    "memberOf": "https://schema.org/memberOf",
-    "Organization": "https://schema.org/Organization",
-    "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
+      
+    "Law": "https://www.bclaws.gov.bc.ca/",
+    "LegalEntity": {
+      "@id": "governance:LegalEntity",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+        "legalName": "https://schema.org/legalName",
+        "identifier": "https://schema.org/identifier"
+      }
+    },
     
     "TenureTitle": {
       "@id": "governance:TenureTitle",
@@ -23,11 +30,11 @@
 
         "area": "governance:area",
         "term": "governance:term",
+        "caveats": "governance:caveats",
         "titleType": "governance:titleType",
         "titleNumber": "governance:titleNumber",
         "originType": "governance:originType",
-        "originNumber": "governance:originNumber",
-        "caveats": "governance:caveats"
+        "originNumber": "governance:originNumber"
       }
     },
     
@@ -39,19 +46,15 @@
         "id": "@id",
         "type": "@type",
 
-        "tractNotes": "governance:tractNotes",
-        "tractRights": "governance:tractRights",
-        "tractLocations": "governance:tractLocations"
-      }
-    },
-    
-    "TractRight": {
-      "@id": "governance:TractRight",
-      "@context": {
-        "@protected": true,
-
-        "id": "@id",
-        "type": "@type"
+        "zones": "governance:tractLocations",
+        "notes": "governance:tractNotes",
+        "rights": {
+          "@id": "governance:tractRights",
+          "@context": {
+            "@protected": true,
+            "inclusion": "governance:rightInclusion"
+          }
+        }
       }
     },
     
@@ -63,7 +66,7 @@
         "id": "@id",
         "type": "@type",
 
-        "zones": "act:zone"
+        "surfaceLocation": "governance:surfaceLocation"
       }
     },
     
@@ -74,8 +77,7 @@
 
         "id": "@id",
         "type": "@type",
-        "location": "https://schema.org/location",
-        "legalName": "https://schema.org/legalName",
+        
         "interest": "governance:interest"
       }
     },
