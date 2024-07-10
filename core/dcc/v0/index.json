@@ -450,28 +450,7 @@
         "@protected": true,
         "@id": "untp-dcc:DigitalConformityCredential",
         "@type": "@id",
-        "@context": {
-          "@context": {
-            "@id": "untp-dcc:@context",
-            "@type": "xsd:string"
-          },
-          "issuer": {
-            "@id": "untp-dcc:issuer",
-            "@type": "untp-core:Party"
-          },
-          "validFrom": {
-            "@id": "untp-dcc:validFrom",
-            "@type": "xsd:string"
-          },
-          "validUntil": {
-            "@id": "untp-dcc:validUntil",
-            "@type": "xsd:string"
-          },
-          "credentialSubject": {
-            "@id": "untp-dcc:credentialSubject",
-            "@type": "untp-dcc:ConformityAttestation"
-          }
-        }
+        "@context": {}
       }
     }
   }
