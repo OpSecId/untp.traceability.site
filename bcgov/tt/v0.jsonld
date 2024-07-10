@@ -1,101 +1,108 @@
 {
-    "@context": {
-      "@protected": true,
+  "@context": {
+    "@protected": true,
+
+    "Law": "https://www.bclaws.gov.bc.ca/",
+
+    "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance#",
+
+    "url": "https://schema.org/url",
+    "Person": "https://schema.org/Person",
+    "jobTitle": "https://schema.org/jobTitle",
+    "memberOf": "https://schema.org/memberOf",
+    "Organization": "https://schema.org/Organization",
+    "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
+    
+    "TenureTitle": {
+      "@id": "governance:TenureTitle",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "area": "governance:area",
+        "term": "governance:term",
+        "titleType": "governance:titleType",
+        "titleNumber": "governance:titleNumber",
+        "originType": "governance:originType",
+        "originNumber": "governance:originNumber",
+        "caveats": "governance:caveats"
+      }
+    },
+    
+    "Tract": {
+      "@id": "governance:Tract",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "tractNotes": "governance:tractNotes",
+        "tractRights": "governance:tractRights",
+        "tractLocations": "governance:tractLocations"
+      }
+    },
+    
+    "TractRight": {
+      "@id": "governance:TractRight",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type"
+      }
+    },
+    
+    "Well": {
+      "@id": "governance:Well",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "zones": "act:zone"
+      }
+    },
+    
+    "TitleHolder": {
+      "@id": "governance:TitleHolder",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+        "location": "https://schema.org/location",
+        "legalName": "https://schema.org/legalName",
+        "interest": "governance:interest"
+      }
+    },
   
-      "Law": "https://www.bclaws.gov.bc.ca/",
-  
-      "site": "https://www2.gov.bc.ca/gov/content/industry/natural-gas-oil/petroleum-natural-gas-tenure",
-      "act": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#",
-      "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance#",
-  
-      "url": "https://schema.org/url",
-      "Person": "https://schema.org/Person",
-      "jobTitle": "https://schema.org/jobTitle",
-      "memberOf": "https://schema.org/memberOf",
-      "Organization": "https://schema.org/Organization",
-      "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
-  
-      "TenureTitleOrigin": "governance:origin",
-      
-      "TenureTitle": {
-        "@id": "site",
-        "@context": {
-          "@protected": true,
-  
-          "id": "@id",
-          "type": "@type",
-  
-          "origin": "governance:origin",
-          "caveats": "governance:caveats"
-        }
-      },
-      
-      "Tract": {
-        "@id": "act:location",
-        "@context": {
-          "@protected": true,
-  
-          "id": "@id",
-          "type": "@type",
-  
-          "rights": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/natural-gas-oil/png-crown-sale/publications/biddinganddispositionguide.pdf",
-          "notes": "governance:notes",
-          "zones": "act:zone"
-        }
-      },
-      
-      "TractRight": {
-        "@id": "governance:TractRight",
-        "@context": {
-          "@protected": true,
-  
-          "id": "@id",
-          "type": "@type"
-        }
-      },
-      
-      "Well": {
-        "@id": "act:well",
-        "@context": {
-          "@protected": true,
-  
-          "id": "@id",
-          "type": "@type",
-  
-          "zones": "act:zone"
-        }
-      },
-      
-      "TitleHolder": {
-        "@id": "act:holder+of+a+location",
-        "@context": {
-          "@protected": true,
-  
-          "id": "@id",
-          "type": "@type",
-  
-          "interest": "act:interest"
-        }
-      },
-  
-      "Director": "act:director", 
-      "DrillingPermit": "act:permit",
-      "PetroleumLease": "act:lease",
-      "NaturalGasLease": "act:lease",
-      "PetroleumAndNaturalGasLease": "act:lease",
-  
-      "Lessee": "act:lessee",
-      "Licensee": "act:licensee",
-      "Permittee": "act:permittee",
-  
-      "Petroleum": "act:petroleum",
-      "NaturalGas": "act:natural+gas",
-  
-      "GasWell": "act:gas+well",
-      "StorageWell": "act:storage+well",
-      "PetroleumWell": "act:petroleum+well",
-      "WaterSourceWell": "act:water+source+well"
-  
-    }
+    "Director": {
+      "@id": "act:director",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "ministry": "governance:ministry"
+      }
+    },
+
+    "DrillingPermit": "governance:Permit",
+    "PetroleumLease": "governance:Lease",
+    "NaturalGasLease": "governance:Lease",
+    "PetroleumAndNaturalGasLease": "governance:Lease",
+
+    "Lessee": "governance:Lessee",
+    "Licensee": "governance:Licensee",
+    "Permittee": "governance:Permittee",
+
+    "Petroleum": "governance:Petroleum",
+    "NaturalGas": "governance:NaturalGas"
+
   }
-  
+}

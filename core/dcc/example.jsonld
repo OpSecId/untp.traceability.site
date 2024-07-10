@@ -1,7 +1,8 @@
 {
     "@context": [
         "https://www.w3.org/ns/credentials/v2",
-        "https://untp.traceability.site/ctx/core/dcc/v0.jsonld"
+        "https://untp.traceability.site/core/dcc/v0.jsonld",
+        {"@vocab": "X:XXXXXXXXXXXXXXXXX"}
     ],
     "type": [
         "VerifiableCredential",
@@ -26,6 +27,7 @@
             "scope": {},
             "assessments": [
                 {
+                    "type": ["ConformityAssessment"],
                     "referenceStandard": {},
                     "referenceRegulation": {},
                     "assessmentCriterion": {},

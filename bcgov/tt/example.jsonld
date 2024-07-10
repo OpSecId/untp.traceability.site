@@ -1,0 +1,62 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://untp.traceability.site/core/dcc/v0.jsonld",
+        "https://untp.traceability.site/bcgov/tt/v0.jsonld",
+        {"@vocab": "X:XXXXXXXXXXXXXXXXX"}
+    ],
+    "type": [
+        "VerifiableCredential",
+        "DigitalConformityCredential"
+    ],
+    "id": "https://untp.traceability.site/core/dcc/example.jsonld",
+    "issuer": {
+        "type": ["Director", "GovernmentOrganization"],
+        "id": "",
+        "name": ""
+    },
+    "name": "UNTP Digital Conformity Credential",
+    "credentialSubject": [
+        {
+            "type": ["ConformityAttestation"],
+            "issuedTo": {
+                "type": ["Party", "TitleHolder"]
+            },
+            "scope": {
+                "type": [""]
+            },
+            "assessments": [
+                {
+                    "type": ["ConformityAssessment", "TenureTitle"],
+                    "referenceStandard": {},
+                    "referenceRegulation": {
+                        "type": ["Law"]
+                    },
+                    "assessmentCriterion": {},
+                    "declaredValues": {},
+                    "compliance": false,
+                    "conformityTopic": "",
+                    "assessedProducts": [{
+                        "type": ["Tract"],
+                        "tractRights": [{
+                            "type": ["TractRight"]
+                        }],
+                        "tractLocations": [],
+                        "tractNotes": []
+                    }],
+                    "assessedFacilities": [{
+                        "type": ["Well"],
+                        "zones": []
+                    }],
+                    "area": "",
+                    "term": "",
+                    "titleType": "",
+                    "titleNumber": "",
+                    "originType": "",
+                    "originNumber": "",
+                    "caveats": []
+                }
+            ]
+        }
+    ]
+}
