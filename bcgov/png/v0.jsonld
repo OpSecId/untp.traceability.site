@@ -7,7 +7,7 @@
 
     "url": "https://schema.org/url",
       
-    "BCPetroleumNaturalGasTitleCredential": "governance",
+    "BCPetroleum&NaturalGasTitleCredential": "governance",
     "Director": "governance:Director",
     "Law": "https://www.bclaws.gov.bc.ca/",
 
@@ -22,8 +22,8 @@
         "identifier": "https://schema.org/identifier"
       }
     },
-    "PetroleumNaturalGasTitle": {
-      "@id": "governance:PetroleumNaturalGasTitle",
+    "Petroleum&NaturalGasTitle": {
+      "@id": "governance:Petroleum&NaturalGasTitle",
       "@context": {
         "@protected": true,
 
