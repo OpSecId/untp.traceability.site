@@ -17,7 +17,6 @@ These parties are responsible for creating extensions to the UNTP core specifica
 ### Regulators
 
 - [BC Gov Director of Petroleum Land](parties/regulators/DIRECTOR-OF-PETROLEUM-LANDS/README.md)
-- [BC Gov Chief Permitting Officer](parties/regulators/CHIEF-PERMITTING-OFFICER/README.md)
 
 ### Producers
 
@@ -25,8 +24,7 @@ These parties are responsible for creating extensions to the UNTP core specifica
 
 Credentials will be issued by an issuer and verified by a consumer. In the context of UNTP, they serve to carry meaningful sustainability data.
 
-- [MinesActPermit](credentials/MinesActPermit/README.md)
-- [TenureTitle](credentials/TenureTitle/README.md)
+- [BCPetroleum&NaturalGasTitle](credentials/png/README.md)
 
 ## Registries
 
