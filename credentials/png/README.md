@@ -1,7 +1,7 @@
 # Tenure Title Credential
 
 ## Issuer
-- [Director of Petroleum Land](../../parties/regulators/DIRECTOR-OF-PETROLEUM-LANDS/README.md)
+- [Director of Petroleum Land](../../parties/regulators/DIRECTOR-OF-PETROLEUM-LANDS/README)
 
 ## Examples
 - [No signature](example-no-signature.jsonld)
