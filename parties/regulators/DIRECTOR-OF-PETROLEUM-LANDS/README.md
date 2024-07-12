@@ -10,7 +10,7 @@ Contexts used by this issuer:
 - [PNG](https://untp.traceability.site/bcgov/png/context.jsonld)
 
 Vocabularies used by this issuer:
-- [PNG](https://untp.traceability.site/bcgov/png/vocabulary.md)
+- [PNG](https://untp.traceability.site/bcgov/png/vocabulary)
 
 Credentials used by this issuer:
 - [PNG](https://untp.traceability.site/credentials/png)
