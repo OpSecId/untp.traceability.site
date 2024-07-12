@@ -10,7 +10,10 @@ Contexts used by this issuer:
 - [PNG](https://untp.traceability.site/bcgov/png/context.jsonld)
 
 Vocabularies used by this issuer:
-- [PNG](https://untp.traceability.site/bcgov/png/context.jsonld)
+- [PNG](https://untp.traceability.site/bcgov/png/vocabulary.md)
+
+Credentials used by this issuer:
+- [PNG](https://untp.traceability.site/credentials/png)
 
 DIDs used by this issuer:
-- [`did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND`](https://untp.traceability.site/parties/regulators/DIRECTOR-OF-PETROLEUM-LAND/did.json)
+- [`did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LANDS`](https://untp.traceability.site/parties/regulators/DIRECTOR-OF-PETROLEUM-LAND/did.json)
