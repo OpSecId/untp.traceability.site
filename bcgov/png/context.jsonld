@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@protected": true,
+
+
+    "governance": "https://bcgov.github.io/bc-vcpedia/credentials/bc-petroleum-and-natural-gas-title/governance#",
+    "png-vocab": "https://untp.traceability.site/bcgov/png/vocabulary#",
+
+    "url": "https://schema.org/url",
+      
+    "BCPetroleum&NaturalGasTitleCredential": "governance",
+    "Director": "png-vocab:Director",
+    "Law": "https://www.bclaws.gov.bc.ca/",
+
+    "LegalEntity": {
+      "@id": "png-vocab:LegalEntity",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+        "legalName": "https://schema.org/legalName",
+        "identifier": "https://schema.org/identifier"
+      }
+    },
+    "Petroleum&NaturalGasTitle": {
+      "@id": "png-vocab:Petroleum&NaturalGasTitle",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "area": "png-vocab:area",
+        "term": "png-vocab:term",
+        "caveats": "png-vocab:caveats",
+        "titleType": "png-vocab:titleType",
+        "titleNumber": "png-vocab:titleNumber",
+        "originType": "png-vocab:originType",
+        "originNumber": "png-vocab:originNumber"
+      }
+    },
+    
+    "Tract": {
+      "@id": "png-vocab:Tract",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "zones": "png-vocab:tractLocations",
+        "notes": "png-vocab:tractNotes",
+        "rights": {
+          "@id": "png-vocab:tractRights",
+          "@context": {
+            "@protected": true,
+            "inclusion": "png-vocab:rightInclusion"
+          }
+        }
+      }
+    },
+    
+    "Well": {
+      "@id": "png-vocab:Well",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "surfaceLocation": "png-vocab:surfaceLocation"
+      }
+    },
+    
+    "TitleHolder": {
+      "@id": "png-vocab:TitleHolder",
+      "@context": {
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "interest": "png-vocab:interest"
+      }
+    },
+
+    "DrillingPermit": "png-vocab:Permit",
+    "PetroleumLease": "png-vocab:Lease",
+    "NaturalGasLease": "png-vocab:Lease",
+    "PetroleumAndNaturalGasLease": "png-vocab:Lease",
+
+    "Lessee": "png-vocab:Lessee",
+    "Licensee": "png-vocab:Licensee",
+    "Permittee": "png-vocab:Permittee",
+
+    "Petroleum": "png-vocab:Petroleum",
+    "NaturalGas": "png-vocab:NaturalGas"
+
+  }
+}

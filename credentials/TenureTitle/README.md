@@ -7,6 +7,6 @@
 - [Example](example.jsonld)
 - [Governance]
 - [Regulation]
-- [Context](../../ctx/bcgov/tt/v0.jsonld)
-- [Vocabulary]
+- [Context](../../bcgov/png/draft.jsonld)
+- [Vocabulary](../../bcgov/png/vocabulary.jsonld)
 - [Schema]

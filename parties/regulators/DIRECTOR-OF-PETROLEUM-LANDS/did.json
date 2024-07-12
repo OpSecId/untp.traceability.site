@@ -3,10 +3,26 @@
   "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
   "verificationMethod": [
     {
-      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey",
+      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#multikey",
+      "type": "Ed25519VerificationKey2020",
       "controller": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "publicKeyMultibase": "z6MkvX88UF3AqsRn97SmqhqnQVvoMiBQtPEccVH43uNwko49"
+    },
+    {
+      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey",
       "type": "Ed25519VerificationKey2018",
-      "publicKeyBase58": "7Q5q2WXzykti6B4Lx94k6yKW5i62uiqKf8jhLrU6rmEM"
+      "controller": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "publicKeyBase58": "H4s5sznjWKwK2cc5A8swZQNoY8uZUVzFvUN8DdQvqaGm"
+    },
+    {
+      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#jwk",
+      "type": "JsonWebKey",
+      "controller": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "7rhdEZRZZ9tAuAL7iww7kYywyCmDV25RGHwyJ2NznmY"
+      }
     }
   ],
   "authentication": [

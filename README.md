@@ -4,6 +4,10 @@
 
 This project aims to support the UNTP pilots by providing test data for testing and demonstration purposes.
 
+## Disclaimer
+
+All content on this site is currently to be considered in DRAFT state and is subject to change at a moment's notice.
+
 ## Parties
 
 A party is an actor in the supply-chain playing a specific role which can be subcategorized as an issuer or a consumer (verifier).
@@ -12,17 +16,10 @@ These parties are responsible for creating extensions to the UNTP core specifica
 
 ### Regulators
 
-Regulators are mostly responsible for issuing DigitalConformityCredentials.
-
 - [BC Gov Director of Petroleum Land](parties/regulators/DIRECTOR-OF-PETROLEUM-LANDS/README.md)
 - [BC Gov Chief Permitting Officer](parties/regulators/CHIEF-PERMITTING-OFFICER/README.md)
 
 ### Producers
-
-Producers are mostly responsible for issuing DigitalProductPassport.
-
-- [Pacific Canbriam Energy Limited](parties/producers/PACIFIC-CANBRIAM-ENERGY-LIMITED/README.md)
-- [Teck Coal Limited](parties/producers/TECK-COAL-LIMITED/README.md)
 
 ## Credentials
 
