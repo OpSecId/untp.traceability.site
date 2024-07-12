@@ -9,11 +9,11 @@
     "url": "https://schema.org/url",
       
     "BCPetroleum&NaturalGasTitleCredential": "governance",
-    "Director": "png-vocab:Director",
+    "Director": "png-vocab:director",
     "Law": "https://www.bclaws.gov.bc.ca/",
 
     "LegalEntity": {
-      "@id": "png-vocab:LegalEntity",
+      "@id": "png-vocab:legalentity",
       "@context": {
         "@protected": true,
 
@@ -24,7 +24,7 @@
       }
     },
     "Petroleum&NaturalGasTitle": {
-      "@id": "png-vocab:Petroleum&NaturalGasTitle",
+      "@id": "png-vocab:petroleum&naturalgastitle",
       "@context": {
         "@protected": true,
 
@@ -34,47 +34,47 @@
         "area": "png-vocab:area",
         "term": "png-vocab:term",
         "caveats": "png-vocab:caveats",
-        "titleType": "png-vocab:titleType",
-        "titleNumber": "png-vocab:titleNumber",
-        "originType": "png-vocab:originType",
-        "originNumber": "png-vocab:originNumber"
+        "titleType": "png-vocab:titletype",
+        "titleNumber": "png-vocab:titlenumber",
+        "originType": "png-vocab:origintype",
+        "originNumber": "png-vocab:originnumber"
       }
     },
     
     "Tract": {
-      "@id": "png-vocab:Tract",
+      "@id": "png-vocab:tract",
       "@context": {
         "@protected": true,
 
         "id": "@id",
         "type": "@type",
 
-        "zones": "png-vocab:tractLocations",
-        "notes": "png-vocab:tractNotes",
+        "zones": "png-vocab:tractlocations",
+        "notes": "png-vocab:tractnotes",
         "rights": {
-          "@id": "png-vocab:tractRights",
+          "@id": "png-vocab:tractrights",
           "@context": {
             "@protected": true,
-            "inclusion": "png-vocab:rightInclusion"
+            "inclusion": "png-vocab:rightinclusion"
           }
         }
       }
     },
     
     "Well": {
-      "@id": "png-vocab:Well",
+      "@id": "png-vocab:well",
       "@context": {
         "@protected": true,
 
         "id": "@id",
         "type": "@type",
 
-        "surfaceLocation": "png-vocab:surfaceLocation"
+        "surfaceLocation": "png-vocab:surfacelocation"
       }
     },
     
     "TitleHolder": {
-      "@id": "png-vocab:TitleHolder",
+      "@id": "png-vocab:titleholder",
       "@context": {
         "@protected": true,
 
@@ -85,17 +85,17 @@
       }
     },
 
-    "DrillingPermit": "png-vocab:Permit",
-    "PetroleumLease": "png-vocab:Lease",
-    "NaturalGasLease": "png-vocab:Lease",
-    "PetroleumAndNaturalGasLease": "png-vocab:Lease",
+    "DrillingPermit": "png-vocab:permit",
+    "PetroleumLease": "png-vocab:lease",
+    "NaturalGasLease": "png-vocab:lease",
+    "PetroleumAndNaturalGasLease": "png-vocab:lease",
 
-    "Lessee": "png-vocab:Lessee",
-    "Licensee": "png-vocab:Licensee",
-    "Permittee": "png-vocab:Permittee",
+    "Lessee": "png-vocab:lessee",
+    "Licensee": "png-vocab:licensee",
+    "Permittee": "png-vocab:permittee",
 
-    "Petroleum": "png-vocab:Petroleum",
-    "NaturalGas": "png-vocab:NaturalGas"
+    "Petroleum": "png-vocab:petroleum",
+    "NaturalGas": "png-vocab:naturalgas"
 
   }
 }
