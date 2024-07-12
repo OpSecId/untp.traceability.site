@@ -1,23 +1,23 @@
 {
   "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
-  "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+  "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands",
   "verificationMethod": [
     {
-      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#multikey",
+      "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#multikey",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "controller": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands",
       "publicKeyMultibase": "z6MkvX88UF3AqsRn97SmqhqnQVvoMiBQtPEccVH43uNwko49"
     },
     {
-      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey",
+      "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#verkey",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "controller": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands",
       "publicKeyBase58": "H4s5sznjWKwK2cc5A8swZQNoY8uZUVzFvUN8DdQvqaGm"
     },
     {
-      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#jwk",
+      "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#jwk",
       "type": "JsonWebKey",
-      "controller": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND",
+      "controller": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -26,14 +26,14 @@
     }
   ],
   "authentication": [
-    "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey"
+    "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#multikey"
   ],
   "assertionMethod": [
-    "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#verkey"
+    "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#multikey"
   ],
   "service": [
     {
-      "id": "did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND#linked-domain",
+      "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#linked-domain",
       "type": "LinkedDomain",
       "serviceEndpoint": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/energy-mines-and-petroleum-resources"
     }
