@@ -13,4 +13,4 @@ Vocabularies used by this issuer:
 - [PNG](https://untp.traceability.site/bcgov/png/context.jsonld)
 
 DIDs used by this issuer:
-- [`did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND`](https://traceability.site/parties/regulators/DIRECTOR-OF-PETROLEUM-LAND/did.json)
+- [`did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND`](https://untp.traceability.site/parties/regulators/DIRECTOR-OF-PETROLEUM-LAND/did.json)
