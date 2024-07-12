@@ -4,11 +4,13 @@ The Director of Petroleum Land is a party acting on behalf of [The Ministry of E
 
 The role of this actor is to issue BC Petroleum and Natural Gas Title (BCPetroleum&NaturalGasTitle) credentials conforming with the UNTP Digital Conformity Credential (DCC).
 
-## Governance
+## Ressources
 
-Information about the governance behind this actor can be found here. 
+Contexts used by this issuer:
+- [PNG](https://untp.traceability.site/bcgov/png/context.jsonld)
 
-The contexts used by this issuer:
-- https://untp.traceability.site/bcgov/png/context.jsonld
+Vocabularies used by this issuer:
+- [PNG](https://untp.traceability.site/bcgov/png/context.jsonld)
 
-DID: `did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND`
+DIDs used by this issuer:
+- [`did:web:untp.traceability.site:parties:regulators:DIRECTOR-OF-PETROLEUM-LAND`](https://traceability.site/parties/regulators/DIRECTOR-OF-PETROLEUM-LAND/did.json): 
