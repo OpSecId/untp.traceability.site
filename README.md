@@ -16,7 +16,7 @@ These parties are responsible for creating extensions to the UNTP core specifica
 
 ### Regulators
 
-- [BC Gov Director of Petroleum Land](parties/regulators/DIRECTOR-OF-PETROLEUM-LANDS/README.md)
+- [BC Gov Director of Petroleum Land](parties/regulators/director-of-petroleum-lands/README)
 
 ### Producers
 
