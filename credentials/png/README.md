@@ -5,7 +5,7 @@
 
 ## Examples
 - [No signature](example-no-signature.jsonld)
-- [Embeded signature](example-embeded-signature.jsonld)
+- [Embedded signature](example-embeded-signature.jsonld)
 - [Enveloped signature](example-enveloped-signature.jsonld)
 
 ## Ressources
