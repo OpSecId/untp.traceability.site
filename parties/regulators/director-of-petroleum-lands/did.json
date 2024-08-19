@@ -1,18 +1,16 @@
 {
-  "@context": ["https://w3.org/ns/did/v1", "https://w3id.org/security/v2"],
+  "@context": [
+    "https://w3.org/ns/did/v1", 
+    "https://w3id.org/security/jwk/v1",
+    "https://w3id.org/security/multikey/v1",
+  ],
   "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands",
   "verificationMethod": [
     {
       "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#multikey",
-      "type": "Ed25519VerificationKey2020",
+      "type": "MultiKey",
       "controller": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands",
-      "publicKeyMultibase": "z6MkvX88UF3AqsRn97SmqhqnQVvoMiBQtPEccVH43uNwko49"
-    },
-    {
-      "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#verkey",
-      "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands",
-      "publicKeyBase58": "H4s5sznjWKwK2cc5A8swZQNoY8uZUVzFvUN8DdQvqaGm"
+      "publicKeyMultibase": "z6Mkp23gqXRC4Gs4RfcHYQzQARty7m5XawHqULqF3c75sgq5"
     },
     {
       "id": "did:web:untp.traceability.site:parties:regulators:director-of-petroleum-lands#jwk",
@@ -21,7 +19,7 @@
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "7rhdEZRZZ9tAuAL7iww7kYywyCmDV25RGHwyJ2NznmY"
+        "x": "jh9gQYpUZ6o3HpQPKQ5BqUb_FTQAnIp5mahAGK--fvA"
       }
     }
   ],
